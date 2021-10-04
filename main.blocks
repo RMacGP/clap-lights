@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="cq+3KfjjQ,jTm6!Y=b0g">lightsOn</variable></variables><block type="pxt-on-start" id="8$4N|Z?^YDl7.Lep^XM," x="0" y="0"/><block type="device_forever" id="/=*g+P:W3dej2py+Q,~~" x="205" y="0"/><block type="input_on_sound" id="9P;5MiOiqz4%J!EGM=:(" x="48" y="122"><field name="sound">DetectedSound.Loud</field><statement name="HANDLER"><block type="controls_if" id="oU`*qF4Uj-4}{DxQKGJn"><mutation else="1"/><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="variables_get" id="]u)fy[_=jfDI[!{3YsKb"><field name="VAR" id="cq+3KfjjQ,jTm6!Y=b0g">lightsOn</field></block></value><statement name="DO0"><block type="device_show_leds" id="#U9$J?mx]%JlDZ|M%@Li"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field><next><block type="variables_set" id="!!rK7=;6%]i[D9Ry](}i"><field name="VAR" id="cq+3KfjjQ,jTm6!Y=b0g">lightsOn</field><value name="VALUE"><shadow type="math_number" id="A~bLNTTEML8|*8Y@21CG"><field name="NUM">0</field></shadow></value></block></next></block></statement><statement name="ELSE"><block type="device_show_leds" id="3(LLUKhG]0*`k[QcD/A)"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="variables_set" id="U]vly:vE%rtl*V)FBDV-"><field name="VAR" id="cq+3KfjjQ,jTm6!Y=b0g">lightsOn</field><value name="VALUE"><shadow type="math_number" id="g)3i;bWOJ]6iVR#^fPk9"><field name="NUM">1</field></shadow></value></block></next></block></statement></block></statement></block></xml>
